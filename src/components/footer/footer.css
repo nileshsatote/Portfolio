@@ -1,0 +1,29 @@
+.footer_sec{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+   
+    justify-content: center;
+    background-color: black;
+    
+
+}
+.left_sec{
+    opacity: 0.5;
+  padding-top: 15px;
+    color: aliceblue;
+}
+.right_sec{
+    opacity: 0.5;
+    margin-left: 20%;
+    color: aliceblue;
+}
+@media screen and (max-width:1040px) {
+    
+    .left_sec{
+        opacity: 0.5;
+      padding-top: 15px;
+      margin-left: 15px;
+        color: aliceblue;
+    }
+}

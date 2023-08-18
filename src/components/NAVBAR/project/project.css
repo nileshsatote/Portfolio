@@ -1,0 +1,111 @@
+.proj_sec{
+    width: 100%;
+    height: 150vh;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+}
+.proj_img{
+    background-image: url('../../picture/about.jpg');
+    /* width: 100%; */
+    height: 35%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+  
+}
+.img_h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 15%;
+}
+
+.p_iteam{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  
+    /* background-color: 0000; */
+}
+
+.proj_cnt{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.proj1,h3{
+    color: black;
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 25%;
+    height:auto ;
+    background-color: rgb(207, 190, 10);
+}
+.proj1,.proj2,.proj3,p{
+  
+    /* margin: 0 0 1.5rem; Adds spacing between paragraphs */
+  line-height: 1.4; /* Controls the line height for better readability */
+  text-align: justify; /* Justify text for a clean look */
+  font-size: 16px; /* Adjust font size as needed */
+}
+
+.proj3,h3{
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 10px;
+    width: 25%;
+    height:auto;
+    background-color: rgb(207, 190, 10);
+}
+
+.proj2,h3{
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 10px;
+    width: 25%;
+    height:auto;
+    background-color: rgb(207, 190, 10);
+}
+
+@media screen and (max-width:1040px) {
+    .proj_sec{
+        width: 100%;
+        height: 80vh;
+        position: relative;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .proj_img{
+        background-image: url('../../picture/about.jpg');
+        /* width: 100%; */
+        height: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 15px;
+      
+    }
+    .proj1,.proj2,.proj3,h3{
+        color: black;
+        display: flex;
+        
+        align-items: center;
+        flex-direction: column;
+        margin-left: 10px;
+        width: 30%;
+        height:40% ;
+        background-color: rgb(207, 190, 10);
+    }
+    .cnt_p{
+        display: none;
+    }
+}
